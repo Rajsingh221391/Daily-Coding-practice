@@ -1,0 +1,22 @@
+# macOS system files
+.DS_Store
+
+# C/C++ build outputs & binaries
+*.out
+*.o
+*.dSYM/
+a.out
+main
+hello
+helloworld
+learn1
+Hw
+
+# Java compiled files & JARs
+*.class
+*.jar
+
+# Python bytecode & environments
+__pycache__/
+*.pyc
+.venv/
