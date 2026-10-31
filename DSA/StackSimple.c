@@ -29,7 +29,7 @@ void peek(void)
 {
     if(top==-1)
     {
-        printf("Stack is empty!");
+        printf("Stack is empty!\n");
         return;
     }
     printf("%d is at the top of the stack\n", stack[top]);
@@ -40,7 +40,7 @@ void display(void)
 {
     if(top==-1)
     {
-        printf("Stack is empty!");
+        printf("Stack is empty!\n");
         return;
     }
     for (int i = top; i >= 0;i--)
@@ -85,7 +85,7 @@ int main(void)
                 break;
 
             default:
-                printf("Enter a valid option!");
+                printf("Enter a valid option!\n");
             }
     } while (choice != 5);
     return 0;
