@@ -39,6 +39,7 @@ void insertRear(int value)
     if(isFull())
     {
         printf("Queue overflow!\n");
+        return;
     }
     if(isEmpty())
     
